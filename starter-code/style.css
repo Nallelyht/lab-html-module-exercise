@@ -6,16 +6,44 @@
   padding: 0;
   font-family: "Source Sans Pro", sans-serif;
 }
-.header {
-  background: #cb3837;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+
+nav.navTop {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 50px;
+}
+.top-left{
+  display: inline-block;
+}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
 }
 
-a:link {
-  color: #f3f5fb;
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+nav a {
+  color: rgba(255,255,255,0.8);
   text-decoration: none;
 }
-.acronym{
-  flex-grow: 1
+.heart{
+  border-right-style: solid;
+  border-right-width: 1px;
+  margin-left: 50px;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+header.header{
+  color: #fff;
+  background-color: rgb(32,101,136);
+  height: 100vh;
+  background-image: url(https://static.npmjs.com/images/hero-cityscape.svg);
+}
+.header_text > button{
+  background:rgb(240, 146, 51);
 }
