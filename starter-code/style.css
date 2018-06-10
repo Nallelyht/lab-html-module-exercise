@@ -177,3 +177,28 @@ h3{
   color: #fff;
   font-size: 16px;
 }
+div.icons{
+  margin: 0 auto;
+}
+div.icons div{
+  width: 30%;
+  display: inline-block;
+}
+section.section03{
+  height: 100vh;
+  text-align: center;
+}
+section.section03 h3{
+  text-align: center;
+  margin: 56px 0 20px;
+}
+div.section03_header{
+  font-size: 18px;
+  padding-bottom: 32px;
+  margin: 18px 0;
+}
+.icons div > p{
+  width: 55%;
+  font-size: 18px;
+  margin: 36px auto;
+}
