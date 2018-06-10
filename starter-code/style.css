@@ -113,9 +113,6 @@ header.header{
   justify-content: center;
   align-items: center;
 }
-.section01 div{
-
-}
 .section01_img{
   width: 448px;
 }
@@ -124,7 +121,7 @@ header.header{
   margin-left: 64px;
   text-align: center;
 }
-.section01_text h3{
+h3{
   font-size: 2.25rem;
   text-align: left;
 }
@@ -153,4 +150,30 @@ header.header{
   text-align: center;
   margin-top: 20px;
   font-size: 18px
+}
+.section02{
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+  height: 95vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.section02_text{
+  width: 30%;
+  margin-left: 15%;
+}
+.section02_text p{
+  font-size: 18px;
+  line-height: 1.47;
+  width: 85%;
+  margin: 18px 0;
+}
+.section02_text button{    
+  background-color: #34495e;
+  border-radius: 20px;
+  padding: 7px 26px 8px 26px;
+  border: 1px solid transparent;
+  color: #fff;
+  font-size: 16px;
 }
