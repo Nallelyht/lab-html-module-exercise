@@ -105,3 +105,52 @@ header.header{
   width: 50%;  
   padding: 4rem;
 }
+.section01{
+  background: rgb(39, 53, 71);
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section01 div{
+
+}
+.section01_img{
+  width: 448px;
+}
+.section01_text{
+  width: 30%;
+  margin-left: 64px;
+  text-align: center;
+}
+.section01_text h3{
+  font-size: 2.25rem;
+  text-align: left;
+}
+.section01_text ul{
+  margin-left: 40px;
+  text-align: left;
+}
+.section01_text ul li{
+  font-size: 1.25rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  line-height: 29.4px;
+  text-align: left;
+}
+.section01_text button{
+  border-radius: 20px;
+  padding: 7px 26px 8px 26px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #cb3837;
+  border: 1px solid transparent;
+  width: 300px;
+  text-align: center;
+}
+.section01_text p{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px
+}
